@@ -1,13 +1,36 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-image: 
+    background-image: url("poker-table.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    width: auto;
+    height: auto;
 }
 
 h1 {
+    padding-top: 20px;
     color: goldenrod;
 }
 
 #message-el {
+    font-style: italic;
+    font-size: 20px;
+    padding-top: 0px;
+}
+
+button {
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px 0px;
+    border-radius: 2px;
+    margin: 2px 0px 2px 0px;
 
 }
 
